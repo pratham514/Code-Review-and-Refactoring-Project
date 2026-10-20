@@ -1,0 +1,9 @@
+--- R04: processing the same file twice (legacy) ---
+== Summary ==
+Orders processed: 36
+Cancelled skipped: 4
+
+--- R19: non-zero-padded date (legacy monthly report) ---
+== Monthly revenue ==
+2026-3-              10.00
+

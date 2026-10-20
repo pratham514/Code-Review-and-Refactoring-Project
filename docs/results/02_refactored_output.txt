@@ -1,0 +1,25 @@
+== Summary ==
+Orders processed: 18
+Cancelled skipped: 2
+Invalid rows skipped: 4
+Gross revenue: 15062.53
+Total discounts: 2018.18
+Net revenue: 13044.35
+
+== Revenue by category ==
+electronics       11609.95
+home                705.70
+stationery          366.75
+travel              361.95
+
+== Top 3 customers ==
+1. alice              8885.58
+2. frank              1989.60
+3. ivan                529.20
+
+== Monthly revenue ==
+2026-01            2073.25
+2026-02            2884.70
+2026-03            7057.60
+2026-04            1028.80
+

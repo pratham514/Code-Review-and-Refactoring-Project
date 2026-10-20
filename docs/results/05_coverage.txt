@@ -1,0 +1,12 @@
+Tests run: 48, failures/errors: 0
+(tests that start the program in a separate process do not add to these numbers)
+File                          Lines  Covered  Coverage
+salesreport/__init__.py           1        1      100%
+salesreport/__main__.py           3        0        0%
+salesreport/cli.py               27       27      100%
+salesreport/formatting.py        26       26      100%
+salesreport/loader.py            43       43      100%
+salesreport/models.py            34       34      100%
+salesreport/pricing.py           23       23      100%
+salesreport/reports.py           34       34      100%
+TOTAL                           191      188       98%

@@ -1,0 +1,18 @@
+Metric                              BEFORE (legacy)     AFTER (package)
+Code lines (no blanks/comments)     185                 263
+Functions/methods                   5                   20
+Longest function (lines)            45                  24
+Average function length (lines)     33.8                7.7
+Highest cyclomatic complexity       14                  4
+Average cyclomatic complexity       10.6                1.7
+Deepest nesting (levels)            5                   3
+Duplicated 5-line blocks            26                  0
+'global' statements                 1                   0
+Bare 'except:' handlers             1                   0
+Magic numbers inside functions      50                  0
+Variables with 1-2 letter names     32                  0
+Docstring coverage                  0%                  100%
+Functions with return type hints    0%                  100%
+
+Longest functions before: [('process', 45, 10), ('monthly_report', 41, 14), ('cat_report', 37, 14)]
+Longest functions after:  [('load_orders', 24, 4), ('parse_row', 18, 3), ('main', 12, 2)]

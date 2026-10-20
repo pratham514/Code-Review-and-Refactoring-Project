@@ -1,0 +1,53 @@
+test_report_has_four_sections_in_order (test_cli.BuildReportTests.test_report_has_four_sections_in_order) ... ok
+test_summary_numbers_for_the_sample_file (test_cli.BuildReportTests.test_summary_numbers_for_the_sample_file) ... ok
+test_missing_file_returns_two_with_friendly_message (test_cli.MainTests.test_missing_file_returns_two_with_friendly_message) ... ok
+test_success_returns_zero_and_prints_report (test_cli.MainTests.test_success_returns_zero_and_prints_report) ... ok
+test_with_vip_customers_three_reports_are_identical (test_equivalence.GeneratedFileTests.test_with_vip_customers_three_reports_are_identical) ... ok
+test_without_vip_customers_output_is_byte_identical (test_equivalence.GeneratedFileTests.test_without_vip_customers_output_is_byte_identical) ... ok
+test_summary_category_and_monthly_reports_are_identical (test_equivalence.SampleFileTests.test_summary_category_and_monthly_reports_are_identical) ... ok
+test_top_customers_differ_only_by_the_vip_fix (test_equivalence.SampleFileTests.test_top_customers_differ_only_by_the_vip_fix) ... ok
+test_any_capitalisation_and_spaces (test_loader.IsCancelledTests.test_any_capitalisation_and_spaces) ... ok
+test_other_statuses_are_not_cancelled (test_loader.IsCancelledTests.test_other_statuses_are_not_cancelled) ... ok
+test_cancelled_row_with_bad_date_counts_as_invalid (test_loader.LoadOrdersTests.test_cancelled_row_with_bad_date_counts_as_invalid) ... ok
+test_empty_file (test_loader.LoadOrdersTests.test_empty_file) ... ok
+test_header_is_skipped_and_counts_are_correct (test_loader.LoadOrdersTests.test_header_is_skipped_and_counts_are_correct) ... ok
+test_header_only_file (test_loader.LoadOrdersTests.test_header_only_file) ... ok
+test_missing_file_raises (test_loader.LoadOrdersTests.test_missing_file_raises) ... ok
+test_sample_file_counts (test_loader.LoadOrdersTests.test_sample_file_counts) ... ok
+test_bad_price (test_loader.ParseRowTests.test_bad_price) ... ok
+test_bad_quantity (test_loader.ParseRowTests.test_bad_quantity) ... ok
+test_extra_columns_are_ignored (test_loader.ParseRowTests.test_extra_columns_are_ignored) ... ok
+test_impossible_date (test_loader.ParseRowTests.test_impossible_date) ... ok
+test_non_padded_date_is_accepted_and_month_is_normalised (test_loader.ParseRowTests.test_non_padded_date_is_accepted_and_month_is_normalised) ... ok
+test_short_row (test_loader.ParseRowTests.test_short_row) ... ok
+test_valid_row (test_loader.ParseRowTests.test_valid_row) ... ok
+test_wrong_date_format (test_loader.ParseRowTests.test_wrong_date_format) ... ok
+test_small_and_zero_quantities (test_pricing.BulkRateTests.test_small_and_zero_quantities) ... ok
+test_tier_boundaries (test_pricing.BulkRateTests.test_tier_boundaries) ... ok
+test_electronics_bonus_is_case_insensitive (test_pricing.DiscountRateTests.test_electronics_bonus_is_case_insensitive) ... ok
+test_no_discount_for_small_regular_order (test_pricing.DiscountRateTests.test_no_discount_for_small_regular_order) ... ok
+test_rates_add_up (test_pricing.DiscountRateTests.test_rates_add_up) ... ok
+test_total_is_capped_at_twenty_percent (test_pricing.DiscountRateTests.test_total_is_capped_at_twenty_percent) ... ok
+test_vip_bonus_is_case_insensitive (test_pricing.DiscountRateTests.test_vip_bonus_is_case_insensitive) ... ok
+test_gross_and_net_without_discount (test_pricing.PriceOrderTests.test_gross_and_net_without_discount) ... ok
+test_net_is_rounded_to_two_decimals (test_pricing.PriceOrderTests.test_net_is_rounded_to_two_decimals) ... ok
+test_worked_example_from_the_report (test_pricing.PriceOrderTests.test_worked_example_from_the_report) ... ok
+test_category_table_layout (test_reports.FormattingTests.test_category_table_layout) ... ok
+test_month_table_layout (test_reports.FormattingTests.test_month_table_layout) ... ok
+test_top_customers_layout_and_fixed_title (test_reports.FormattingTests.test_top_customers_layout_and_fixed_title) ... ok
+test_categories_are_merged_case_insensitively_and_sorted_desc (test_reports.GroupingTests.test_categories_are_merged_case_insensitively_and_sorted_desc) ... ok
+test_empty_input (test_reports.GroupingTests.test_empty_input) ... ok
+test_months_are_in_calendar_order (test_reports.GroupingTests.test_months_are_in_calendar_order) ... ok
+test_ties_keep_first_appearance_order (test_reports.GroupingTests.test_ties_keep_first_appearance_order) ... ok
+test_every_order_is_priced_once (test_reports.PriceAllTests.test_every_order_is_priced_once) ... ok
+test_empty (test_reports.SummaryTests.test_empty) ... ok
+test_summary_text (test_reports.SummaryTests.test_summary_text) ... ok
+test_totals (test_reports.SummaryTests.test_totals) ... ok
+test_customer_names_are_merged_case_insensitively (test_reports.TopCustomerTests.test_customer_names_are_merged_case_insensitively) ... ok
+test_fewer_customers_than_limit (test_reports.TopCustomerTests.test_fewer_customers_than_limit) ... ok
+test_only_the_limit_is_returned_highest_first (test_reports.TopCustomerTests.test_only_the_limit_is_returned_highest_first) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.300s
+
+OK

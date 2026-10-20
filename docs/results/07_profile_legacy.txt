@@ -1,0 +1,12 @@
+         29230850 function calls (29230731 primitive calls) in 5.129 seconds
+   Ordered by: cumulative time
+   List reduced from 283 to 8 due to restriction <8>
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    5.129    5.129 tools/profile_legacy.py:26(run)
+        1    2.645    2.645    4.818    4.818 legacy/sales_report.py:157(top_report)
+ 28672610    2.194    0.000    2.194    0.000 {method 'lower' of 'str' objects}
+        1    0.048    0.048    0.248    0.248 legacy/sales_report.py:17(process)
+    19585    0.008    0.000    0.183    0.000 {built-in method strptime}
+    19585    0.012    0.000    0.172    0.000 /usr/lib/python3.12/_strptime.py:551(_strptime_datetime)
+    19585    0.086    0.000    0.160    0.000 /usr/lib/python3.12/_strptime.py:293(_strptime)
+        1    0.021    0.021    0.040    0.040 legacy/sales_report.py:75(cat_report)

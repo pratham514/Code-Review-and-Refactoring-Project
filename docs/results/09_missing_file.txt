@@ -1,0 +1,2 @@
+error: cannot read 'missing.csv': No such file or directory
+exit code: 2

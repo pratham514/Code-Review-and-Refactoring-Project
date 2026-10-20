@@ -1,0 +1,5 @@
+16c16
+< 1. alice              9293.58
+---
+> 1. alice              8885.58
+(diff exit code 1; 1 = differences found)
